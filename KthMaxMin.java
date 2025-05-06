@@ -3,8 +3,7 @@ class KthMaxMin{
         
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j <arr.length - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    
+                if (arr[j] > arr[j + 1]) { 
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
@@ -16,7 +15,7 @@ class KthMaxMin{
         }
         Kmax = arr[arr.length-Kmax];
         Kmin = arr[Kmin-1];
-System.out.println("max:"+Kmax+" "+"min:"+Kmin);
+        System.out.println("max:"+Kmax+" "+"min:"+Kmin);
     }
     public static void main(String[] args) {
         int[] arr = {1,43,64,7,15,9};
