@@ -1,11 +1,10 @@
 public class ReverseArray{
     
-   static void reverse(int[] arr) {
+   static void reverseInPlace(int[] arr) {
         int left = 0;
         int right = arr.length - 1;
         
-        while (left<right) {
-            
+        while (left<right) {    
             int temp = arr[left];
             arr[left] = arr[right];
             arr[right] = temp;
@@ -13,17 +12,15 @@ public class ReverseArray{
             right--;
         }
     }
-    
-    static void printArray(int[] arr) {
+     static void printArray(int[] arr) {
         for (int num : arr) {
-            System.out.println(num + " ");
+            System.out.print(num + " ");
         }
        }
     public static void main(String[] args) {
         int[] myArray = {10, 20, 30, 40, 50};
-        reverse(myArray);
-        System.out.println("After reversing:");
+        reverseInPlace(myArray);
+        System.out.print("After reversing:");
         printArray(myArray);
     }
-
 }
