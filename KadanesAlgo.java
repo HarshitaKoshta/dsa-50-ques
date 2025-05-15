@@ -4,7 +4,7 @@ class KadanesAlgo{
         int maxSub = a[0];
       for (int i = 0; i < a.length; i++) {
         if(currentMax+a[i]>a[i]){
-            currentMax = currentMax = currentMax + a[i];
+           currentMax = currentMax + a[i];
         }else{
             currentMax=a[i];
         }
