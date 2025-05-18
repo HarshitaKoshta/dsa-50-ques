@@ -2,7 +2,7 @@ class KadanesAlgo{
     static void MaxSum(int[] a){
         int currentMax = a[0];
         int maxSub = a[0];
-      for (int i = 0; i < a.length; i++) {
+      for (int i = 1; i < a.length; i++) {
         if(currentMax+a[i]>a[i]){
            currentMax = currentMax + a[i];
         }else{
