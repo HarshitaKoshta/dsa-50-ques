@@ -5,7 +5,7 @@ public class TwoSumII {
         int[] ans  =new int[2];
         int st =0,ed = num.length-1;
 
-        System.out.println("target sum fount at ");
+        System.out.println("target sum found at ");
         while(st<=ed){
            int sum = num[st]+num[ed];
 
