@@ -19,6 +19,6 @@ class KthMaxMin{
     }
     public static void main(String[] args) {
         int[] arr = {1,43,64,7,15,9};
-        MaxMin(arr,6,6);
+        MaxMin(arr,3,3);
     }
 }
