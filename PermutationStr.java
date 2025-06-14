@@ -1,7 +1,7 @@
 public class PermutationStr {
    
     public static void main(String[] args) {
-        String str = "ABC";
+        String str = "ABCD";
         permute(str.toCharArray(), 0);
     }
 
