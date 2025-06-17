@@ -7,7 +7,7 @@ public class SearchSubStr {
 
         for(int i = 0;i<=n-m;i++){
             if(s.substring(i,i+m).equals(sub)){
-            System.out.println(i);
+            System.out.println("Substring found at index:"+i);
             break;
             }
         }
