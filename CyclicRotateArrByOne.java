@@ -5,7 +5,7 @@ class CyclicRotateArrByOne{
         for (int i = a.length - 1; i > 0; i--) {
             a[i] = a[i - 1];
         }
-     a[0] = last;
+        a[0] = last;
      System.out.print("after rotation array :");
      for(int num:a){
      System.out.println(num);

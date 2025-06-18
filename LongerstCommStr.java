@@ -1,7 +1,7 @@
 public class LongerstCommStr {
     
     public static void main(String[] args) {
-        String[] s ={"flow","flower","floor","flask"};
+        String[] s ={"flow","flower","floor","flood"};
        String pre = s[0];
 
         for(int i=1;i<s.length;i++){
