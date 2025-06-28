@@ -1,5 +1,5 @@
 public class isRotation {
-    
+
     public static void main(String[] args) {
         String s1 ="ABCD";
         String s2 ="CDAB";
