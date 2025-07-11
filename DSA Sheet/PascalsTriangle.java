@@ -24,7 +24,7 @@ public class PascalsTriangle {
                 curr.add(val);
             }
 
-            curr.add(1); // Last element is always 1
+            curr.add(1); // Last element is 1
             res.add(curr);
         }
 
