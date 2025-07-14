@@ -19,7 +19,6 @@ class RotateMatrix90{
 
         System.out.print("Enter size of square matrix: ");
         int n = sc.nextInt(); 
-
         int[][] arr = new int[n][n];
 
         System.out.println("Enter matrix elements:");
