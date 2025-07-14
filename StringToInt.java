@@ -5,6 +5,6 @@ class StringToInt{
         for (int idx = 0; idx < s.length(); idx++) {
            c +=(int)s.charAt(idx);
         }
-        System.out.println("ASCII value of the string"+c);
+        System.out.println("ASCII value of the string:"+c);
     }
 }
