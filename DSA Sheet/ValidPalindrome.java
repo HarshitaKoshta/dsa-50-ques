@@ -1,6 +1,6 @@
 public class ValidPalindrome {
     public static void main(String[] args) {
-        String s = "racecars";
+        String s = "racecar";
         boolean palin  =true;
         int st = s.charAt(0);
         int ed = s.charAt(s.length()-1 );
