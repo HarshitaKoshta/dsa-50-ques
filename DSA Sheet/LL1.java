@@ -50,12 +50,33 @@ public class LL1 {
         System.out.println("Null");
     }
 
+    public void deleteLst(){
+        if(head==null){
+            System.out.println("list empty");
+            return;
+        }
+
+        if(head.next == null){
+            head = null;
+            return;
+        }
+        Node secLst = head;
+        Node lstNode = head.next;
+        while(lstNode.next!=null){
+              lstNode = lstNode.next;
+              secLst = secLst.next;
+        }
+        secLst.next = null;
+    }
+
     public static void main(String[] args) {
         LL1 list = new LL1();
         list.addFirst("is");
         list.addFirst("girl");
         list.addFirst("a");
         list.addLast("dancing");
+        list.printList();
+        list.deleteLst();
         list.printList();
     }
 }
