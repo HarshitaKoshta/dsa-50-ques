@@ -76,5 +76,6 @@ public class RevLL {
         list.printList();
         list.revLinked();
         list.printList();
+        
     }
 }
