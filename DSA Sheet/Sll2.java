@@ -39,17 +39,15 @@ class LL{
     public static void main(String[] args) {
            LL list = new LL();
 
-        // Create linked list: 1 -> 2 -> 3 -> 4 -> 5
         Sll2 node5 = new Sll2(5);
         Sll2 node4 = new Sll2(4, node5);
         Sll2 node3 = new Sll2(3, node4);
         Sll2 node2 = new Sll2(2, node3);
         Sll2 head = new Sll2(1, node2);
 
-        // Remove 2nd node from end (which is 4)
+        
         head = list.remNthFromLst(head, 2);
 
-        // Print list after removal
         Sll2 temp = head;
         while (temp != null) {
             System.out.print(temp.val + " ");
