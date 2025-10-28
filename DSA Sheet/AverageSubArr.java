@@ -23,6 +23,7 @@ public class AverageSubArr {
     public static void main(String[] args) {
         int[] nums = {1, 12, -5, -6, 50, 3};
         int k = 4;
+        
         System.out.println("Maximum Average Subarray: " + findMaxAverage(nums, k));
     }
 }
